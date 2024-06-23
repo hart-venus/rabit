@@ -4517,7 +4517,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@redwoodjs/auth@npm:7.7.1":
+"@redwoodjs/auth@npm:7.7.1, @redwoodjs/auth@npm:^7.7.1":
   version: 7.7.1
   resolution: "@redwoodjs/auth@npm:7.7.1"
   dependencies:
@@ -18030,6 +18030,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "root-workspace-0b6124@workspace:."
   dependencies:
+    "@redwoodjs/auth": "npm:^7.7.1"
     "@redwoodjs/core": "npm:7.7.1"
     "@redwoodjs/project-config": "npm:7.7.1"
   languageName: unknown

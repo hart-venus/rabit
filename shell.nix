@@ -1,7 +1,10 @@
 { pkgs ? import <nixpkgs> {} }:
 
-pkgs.mkShell {
-  buildInputs = [
-    pkgs.yarn
-  ];
-}
+let
+    yarn = pkgs.yarn-berry;
+in
+    pkgs.mkShell {
+      buildInputs = [
+        yarn
+      ];
+    }
